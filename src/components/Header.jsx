@@ -73,12 +73,12 @@ export default function Header({ style = "bright" }) {
           </Link>
         </Box>
 
-        <Box
+        {/* <Box
           className="header__middle"
           sx={{ display: { xs: "none", md: "flex" } }}
         >
           <Search bgColor="#fff" />
-        </Box>
+        </Box> */}
 
         <Box className="header__right">
           {Object.keys(user).length > 0 ? (
